@@ -26,8 +26,6 @@ function secondPage() {
         
         /*yes.style.display = "flex";*/
     }
-
-    console.log("this pussy :*");
 }
 
 function noPage() {
@@ -56,4 +54,5 @@ function yesPage() {
     for(var i = 0; i < x.length; i++) { x[i].style.display = "block"; }
     for(var i = 0; i < y.length; i++) { y[i].style.display = "block"; }
     for(var i = 0; i < second.length; i++) { second[i].style.display = "none"; }
+
 }
